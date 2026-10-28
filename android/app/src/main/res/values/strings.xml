@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RoutineFlow</string>
+    <string name="widget_today_tasks_desc">Today\'s scheduled tasks, daily completion progress bar, and instant completion action</string>
+    <string name="widget_weekly_routine_desc">Weekly 7-day habits and routine progress overview</string>
+    <string name="widget_next_reminder_desc">Upcoming scheduled routine and reminder countdown</string>
+    <string name="widget_quick_add_desc">Instant one-tap task creation shortcut</string>
+</resources>

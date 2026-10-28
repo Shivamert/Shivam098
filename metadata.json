@@ -1,0 +1,6 @@
+{
+  "name": "RoutineFlow",
+  "description": "Personal task, routine, and reminder management system with recurring schedules, calendar views, push notifications, and Android widgets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "/",
+  "name": "RoutineFlow",
+  "short_name": "RoutineFlow",
+  "description": "Personal task, routine, and reminder management system with recurring schedules, calendar views, push notifications, and Android widgets.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#4f46e5",
+  "background_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today Dashboard",
+      "short_name": "Today",
+      "description": "View today's schedule and tasks",
+      "url": "/?view=today",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Calendar View",
+      "short_name": "Calendar",
+      "description": "Explore weekly and monthly schedule",
+      "url": "/?view=calendar",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Add New Task",
+      "short_name": "Add Task",
+      "description": "Create a new task or recurring routine",
+      "url": "/?action=new-task",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Routines Manager",
+      "short_name": "Routines",
+      "description": "Manage habits and recurring rules",
+      "url": "/?view=routines",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
